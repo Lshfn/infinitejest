@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Infinite Jest · Daria Ivans</title>
+<link rel="icon" href="Infinite-Jest/assets/favicon.png">
+<link rel="stylesheet" href="Infinite-Jest/fonts/ruluko.css">
+<style>
+*{box-sizing:border-box} body{margin:0;background:#a4d2ee;font:1rem Ruluko,system-ui,sans-serif;color:#142f4b}button,a{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #643c8d;outline-offset:3px}
+.sky{min-height:100svh;display:grid;place-items:center;isolation:isolate;position:relative;overflow:hidden;background:linear-gradient(#71a9e8,#d6ecf5)}
+.clouds{position:absolute;z-index:-1;width:100%;left:0;top:0}.cloudbank{position:absolute;width:80%;bottom:-5%;right:-12%;z-index:-1}
+.portal{position:relative;display:grid;place-items:center;background:none;border:0;width:min(86vw,520px);padding:0}.window{width:100%;display:block}.blob{position:absolute;width:18%;filter:drop-shadow(0 1px 18px #aaff59);transition:translate .2s}.portal:hover .blob{translate:0 -10px}
+dialog{padding:0;border:2px solid #51766e;border-radius:12px 12px 7px 7px;width:min(940px,94vw);max-height:94dvh;background:#eaf3f1;color:inherit;box-shadow:0 20px 70px #14264e88;overflow:auto}
+dialog::backdrop{background:#14214a91}.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.7rem 1rem;color:#163732;background:#a6dfaf;border-bottom:2px solid #689e83}.bar h1{margin:0;font-size:1.45rem}.close{border:1px solid #568671;background:#dff5e8;border-radius:50%;width:2rem;height:2rem}
+.layout{display:grid;grid-template-columns:12rem minmax(0,1fr);gap:.8rem;padding:.8rem}.categories{display:grid;align-content:start;gap:.4rem}.categories button{background:#d8e8f6;border:1px solid #a6c0d5;border-left:4px solid transparent;text-align:left;padding:.65rem;color:inherit}.categories button[aria-current]{background:#c9f0a4;border-left-color:#426d50}.panel{background:#f7fbff;border:1px solid #acbdd2;padding:clamp(.75rem,2vw,1.3rem);min-width:0}h2{margin:0 0 .7rem;font-size:1.4rem}p{line-height:1.55}iframe{display:block;width:100%;aspect-ratio:16/9;border:0;background:#152c42}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}.gallery img{width:100%;height:100%;object-fit:contain;background:#192e43}.carpet{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.45rem}.tile{aspect-ratio:4/3;background:#24375b;color:white;border:2px solid #637f9e;box-shadow:inset 0 0 0 3px #182641}.tile:hover,.tile[aria-pressed=true]{border-color:#75aa56;background:#355a56}.tile span{font-variant-numeric:tabular-nums}.series-player{margin-top:.9rem}
+@media(max-width:620px){.layout{grid-template-columns:1fr}.categories{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.blob{transition:none}}
+</style>
+<main class="sky">
+<img class="clouds" src="Infinite-Jest/assets/infinitejest_intro.head.174438634745.png" alt=""><img class="cloudbank" src="Infinite-Jest/assets/infinitejest_intro.head.174438634746.png" alt="">
+<button class="portal" aria-label="Open Infinite Jest"><img class="window" src="Infinite-Jest/assets/infinitejest_intro.head.174438554230.jpg" alt=""><img class="blob" src="Infinite-Jest/assets/infinitejest-main.head.174938280219.gif" alt=""></button>
+</main>
+<dialog aria-labelledby="name">
+<header class="bar"><h1 id="name">Infinite Jest</h1><form method="dialog"><button class="close" aria-label="Close">×</button></form></header>
+<div class="layout"><nav class="categories" aria-label="Project sections">
+<button data-section="trailer">Trailer</button><button data-section="description">Project description</button><button data-section="installation">Installation views</button><button data-section="program">Public program</button><button data-section="series">The series</button>
+</nav><div>
+<section class="panel" id="trailer"><h2>Trailer</h2><div data-player></div></section>
+<section class="panel" id="description" hidden><h2>Project description</h2><div>
+	      <span class="fancy-text">Infinite Jest</span> is a <em>The Sims</em> machinima series based on David Foster Wallace’s novel.
+	      The book’s structure—resembling a Sierpiński triangle and a game of professional tennis—is translated into fragmented videos designed for nonlinear viewing.
+	      Any clip can be a starting point; the beginning contains the end, the end folds into the beginning, but they don’t necessarily belong to the same story.
+	      <br><br>
+	      While <em>Infinite Jest</em> has a narrative, it emerges from overlapping storylines. Machinima, as a medium, always engages with the internal structures of the game it’s created in.
+	      In this case, <em>The Sims</em> offers a more fitting way to reimagine the novel’s themes than a conventional adaptation.
+	      <br><br>
+	      The 25-year history of <em>The Sims</em>—its lore, mechanics, and linguistic and behavioral clichés—unexpectedly aligns with Wallace’s use of repetition and nonverbal functions of clichés.
+	      Most of the machinima is filmed in <em>The Sims 4</em>, a game often criticized by its community, which I associate with the novel’s Subsidized Time era.
+	      Events set before Subsidized Time are recreated in earlier <em>The Sims</em> installments.
+	      <br><br>
+	      The series employs different filming techniques and approaches to character interactions, from recreating game conditions described in the novel to observing unscripted interactions between a character and players in <em>The Sims Online</em> (FreeSO).
+	    </div></section>
+<section class="panel" id="installation" hidden><h2>Installation views</h2><div class="gallery"><a href="Infinite-Jest/assets/infinitejest-main.head.174437794774.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437794774.jpg" alt="Nine-screen installation" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437795077.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437795077.jpg" alt="Exhibition display" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.17443779544.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.17443779544.jpg" alt="Visitor at the exhibition" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437798736.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437798736.jpg" alt="Wide installation view" loading="lazy"></a></div></section>
+<section class="panel" id="program" hidden><h2>Public program</h2><div class="gallery"><a href="Infinite-Jest/assets/infinitejest-main.head.174437908642.png"><img src="Infinite-Jest/assets/infinitejest-main.head.174437908642.png" alt="Public program poster" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437908340.png"><img src="Infinite-Jest/assets/infinitejest-main.head.174437908340.png" alt="Public program documentation" loading="lazy"></a></div><p><a href="Infinite-Jest/assets/the-sims-machinima-infinite-jest.pdf">Read the presentation (Infinite-Jest/assets/the-sims-machinima-infinite-jest.pdf)</a></p><div data-player></div></section>
+<section class="panel" id="series" hidden><h2>The series</h2><div class="carpet"><button class="tile" aria-label="Play from 13:58" data-time="838" style="grid-area:1/1"><span>13:58</span></button><button class="tile" aria-label="Play from 16:37" data-time="997" style="grid-area:1/2"><span>16:37</span></button><button class="tile" aria-label="Play from 20:54" data-time="1254" style="grid-area:1/3"><span>20:54</span></button><button class="tile" aria-label="Play from 34:58" data-time="2098" style="grid-area:2/1"><span>34:58</span></button><button class="tile" aria-label="Play from 41:48" data-time="2508" style="grid-area:2/3"><span>41:48</span></button><button class="tile" aria-label="Play from 55:25" data-time="3325" style="grid-area:3/1"><span>55:25</span></button><button class="tile" aria-label="Play from 58:38" data-time="3518" style="grid-area:3/2"><span>58:38</span></button><button class="tile" aria-label="Play from 96:48" data-time="5808" style="grid-area:3/3"><span>96:48</span></button></div><div class="series-player" data-player></div><p><a href="https://www.youtube.com/watch?v=JNQe83mNinQ">Watch the full machinima</a></p></section>
+</div></div></dialog>
+<script>
+const dialog = document.querySelector('dialog');
+const entrance = document.querySelector('.portal');
+const categories = [...document.querySelectorAll('[data-section]')];
+const sections = [...document.querySelectorAll('.panel')];
+const tiles = [...document.querySelectorAll('[data-time]')];
+function play(section, id, title, start = 0) {
+  const player = document.createElement('iframe');
+  player.title = title;
+  player.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  player.allowFullscreen = true;
+  player.src = `https://www.youtube-nocookie.com/embed/${id}?start=${start}&autoplay=1&playsinline=1`;
+  document.querySelector(`#${section} [data-player]`).replaceChildren(player);
+}
+function show(id) {
+  sections.forEach(section => { section.hidden = section.id !== id; });
+  categories.forEach(button => {
+    if (button.dataset.section === id) button.setAttribute('aria-current', 'true');
+    else button.removeAttribute('aria-current');
+  });
+  document.querySelectorAll('[data-player]').forEach(slot => slot.replaceChildren());
+  tiles.forEach(tile => tile.setAttribute('aria-pressed', 'false'));
+  if (id === 'trailer') play(id, '7mEflN4P0Vo', 'Infinite Jest trailer');
+  if (id === 'program') play(id, 'I_RWcYMjph0', 'Museum talk on The Sims');
+}
+entrance.addEventListener('click', () => { dialog.showModal(); show('trailer'); });
+categories.forEach(button => button.addEventListener('click', () => show(button.dataset.section)));
+tiles.forEach(tile => tile.addEventListener('click', () => {
+  tiles.forEach(other => other.setAttribute('aria-pressed', String(other === tile)));
+  play('series', 'JNQe83mNinQ', 'Infinite Jest machinima', Number(tile.dataset.time));
+  document.querySelector('.series-player').scrollIntoView({block:'nearest'});
+}));
+dialog.addEventListener('close', () => {
+  document.querySelectorAll('[data-player]').forEach(slot => slot.replaceChildren());
+  entrance.focus();
+});
+</script></html>
