@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html style="background-color: #000000;">
+<head>
+<title>infinitejest-main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="hotglue-ng">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/css/reset.min.css?v=1793813925">
+<link rel="stylesheet" type="text/css" href="/css/main.min.css?v=1793813925">
+<link rel="stylesheet" type="text/css" href="/modules/download/download.min.css?v=1793813925">
+<style type="text/css">
+	@font-face {
+		font-family: 'DejaVuSans';
+		font-style: normal;
+		font-weight: normal;
+		src: url(fonts/dejavusans/dejavusans-webfont.woff) format("woff");
+	}
+	@font-face {
+		font-family: 'DejaVuSans';
+		font-style: italic;
+		font-weight: normal;
+		src: url(fonts/dejavusans/dejavusans-oblique-webfont.woff) format("woff");
+	}
+	@font-face {
+		font-family: 'DejaVuSans';
+		font-style: normal;
+		font-weight: bold;
+		src: url(fonts/dejavusans/dejavusans-bold-webfont.woff) format("woff");
+	}
+	@font-face {
+		font-family: 'DejaVuSans';
+		font-style: italic;
+		font-weight: bold;
+		src: url(fonts/dejavusans/dejavusans-boldoblique-webfont.woff) format("woff");
+	}
+</style>
+<script type="text/javascript" defer src="/js/mobile-guided.min.js?v=1793813925"></script>
+<!-- user HEAD definitions -->
+
+<link rel="shortcut icon" href="/?favicon" type="image/png">
+<link rel="icon" href="/?favicon" type="image/png">
+<link rel="apple-touch-icon" href="/?favicon">
+</head>
+<body id="infinitejest-main.head" class="page">
+	<div id="infinitejest-main.head.174938280219" class="image resizable object" style="height: 195.733px; left: 267.633px; position: absolute; top: 86.6333px; width: 102.459px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174938280219" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174438836727" class="image resizable object" style="height: 833px; left: -992px; position: absolute; top: -33px; width: 992px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174438836727" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174437795077" class="image resizable object" style="height: 408px; left: 4305px; position: absolute; top: 95px; width: 612.448px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174437795077" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.17443779544" class="image resizable object" style="height: 402px; left: 4968px; position: absolute; top: 96px; width: 603.236px; z-index: 100;">
+		<img src="/?infinitejest-main.head.17443779544" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<a href="/?infinitejest-main.head.174437795077">
+		<div id="infinitejest-main.head.174828608830" class="text resizable object" style="background-color: rgb(0, 255, 2); font-family: DejaVuSans; font-size: 20px; height: 21.5px; left: 104px; padding-bottom: 0px; padding-left: 3.5px; padding-right: 0px; padding-top: 6.5px; position: absolute; top: 121px; width: 153.5px; z-index: 100;">
+			<a href="infinitejest-main.head.179399737740">exhibition view</a>
+		</div>
+	</a>
+	<a href="/?infinitejest-main.head.174437908642">
+		<div id="infinitejest-main.head.174828618852" class="text resizable object" style="background-color: rgb(164, 255, 0); font-family: DejaVuSans; font-size: 20px; height: 22.5px; left: 380px; line-height: 0.969998em; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 6.5px; position: absolute; text-align: center; top: 120px; width: 169px; z-index: 100;">
+			public program
+		</div>
+	</a>
+	<div id="infinitejest-main.head.179399554856" class="webvideo resizable object" style="height: 300px; left: 2427px; position: absolute; top: 119px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=838&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.17939957318" class="webvideo resizable object" style="height: 300px; left: 2911px; position: absolute; top: 119px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=997&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399601890" class="webvideo resizable object" style="height: 300px; left: 3415px; position: absolute; top: 119px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=2508&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.174938218751" class="image resizable object" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; height: 357px; left: 113px; position: absolute; top: 324px; width: 166.067px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174938218751" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.176822519041" class="webvideo resizable object" style="background-color: rgb(189, 255, 25); height: 360px; left: 1001px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; position: absolute; top: 323px; width: 480px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/7mEflN4P0Vo?feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399580837" class="webvideo resizable object" style="height: 300px; left: 2427px; position: absolute; top: 477px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=1254&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399568352" class="webvideo resizable object" style="height: 300px; left: 2911px; position: absolute; top: 477px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399624758" class="webvideo resizable object" style="height: 300px; left: 3415px; position: absolute; top: 477px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=3518&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.174938231841" class="image resizable object" style="height: 357px; left: 353px; position: absolute; top: 547px; width: 184.316px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174938231841" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174437798736" class="image resizable object" style="height: 409px; left: 4305px; position: absolute; top: 535px; width: 612px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174437798736" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174437794774" class="image resizable object" style="height: 409px; left: 4972px; position: absolute; top: 536px; width: 614px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174437794774" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174938231839" class="image resizable object" style="height: 340.379px; left: 140px; position: absolute; top: 850px; width: 190px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174938231839" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.179399594199" class="webvideo resizable object" style="height: 300px; left: 2427px; position: absolute; top: 851px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=2098&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399618595" class="webvideo resizable object" style="height: 300px; left: 2911px; position: absolute; top: 851px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=3325&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.179399636472" class="webvideo resizable object" style="height: 300px; left: 3415px; position: absolute; top: 851px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/JNQe83mNinQ?start=5808&amp;feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.174437908642" class="image resizable object" style="height: 602px; left: 3434px; position: absolute; top: 1569px; width: 379px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174437908642" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174437908340" class="image resizable object" style="height: 604px; left: 3840px; position: absolute; top: 1564px; width: 376.656px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174437908340" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.174938231840" class="image resizable object" style="height: 368px; left: 4231px; position: absolute; top: 1965px; width: 220.951px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174938231840" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<div id="infinitejest-main.head.179399486698" class="webvideo resizable object" style="height: 300px; left: 4484px; position: absolute; top: 1863px; width: 400px; z-index: 100;">
+		<iframe src="https://www.youtube.com/embed/I_RWcYMjph0?feature=oembed" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" referrerpolicy="strict-origin-when-cross-origin" style="border-width: 0px; display: block; height: 100%; width: 100%;"></iframe>
+	</div>
+	<div id="infinitejest-main.head.174828647898" class="image resizable object" style="height: 490px; left: 3436px; position: absolute; top: 2020px; width: 783.376px; z-index: 100;">
+		<img src="/?infinitejest-main.head.174828647898" alt="" style="height: 100%; width: 100%;">
+	</div>
+	<a href="/?infinitejest-main.head.179399476689&amp;download=1" download="The Sims, культура моддинга, Машинимы и Бесконечная Шутка.pdf">
+		<div id="infinitejest-main.head.179399474989" class="image resizable object" style="height: 286.253px; left: 4487px; position: absolute; top: 2224px; width: 512px; z-index: 100;">
+			<img src="/?infinitejest-main.head.179399474989" alt="" style="height: 100%; width: 100%;">
+		</div>
+	</a>
+</body>
+</html>
