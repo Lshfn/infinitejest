@@ -36,34 +36,35 @@ iframe{display:block;width:100%;border:0;background:#10141b;aspect-ratio:16/9}
 .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.gallery img{display:block;width:100%;height:100%;object-fit:contain;background:#14243c}
 #series{padding:.55rem;background:#f7fbff}
 .carpet{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,3.2vw,56px);padding:clamp(.7rem,2vw,2rem);background:#000}
-.carpet figure{margin:0;min-width:0}.carpet iframe{min-height:200px}.carpet figcaption{color:#e0e8f3;font-size:.86rem;margin-top:.35rem}
+.carpet figure{margin:0;min-width:0}.carpet iframe{min-height:200px}
 
 @media(max-width:475px){.carpet{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.blob{transition:none}}
 
 .workspace{position:fixed;z-index:2;inset:50% auto auto 50%;transform:translate(-50%,-50%);width:min(1040px,80vw);height:min(730px,82dvh);display:flex;flex-direction:column;background:#f9fcff;border:1px solid #a1b5cc;border-radius:9px;overflow:hidden;box-shadow:0 15px 48px #293c5866}
-.workspace-body{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:.55rem;padding:.6rem;background:#dfeaf6;flex:1;min-height:0}
+.workspace-body{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:.55rem;padding:.6rem;background:#dfeaf6;flex:1;min-height:0}
 .categories,.stage{min-height:0;overflow:auto;overscroll-behavior:contain}
 .categories{display:grid;grid-template-columns:1fr;align-content:start;gap:.25rem;padding:.3rem;background:#edf5ff;border:1px solid #c4d5e6;border-radius:5px}
-.categories button{display:grid;align-items:center;grid-template-columns:30px minmax(0,1fr);gap:.2rem;text-align:left;width:100%;min-height:44px;padding:.3rem .2rem;border:1px solid transparent;border-radius:5px;background:transparent;color:#274869;font-size:.86rem;overflow-wrap:anywhere}
-.categories img{width:100%;height:44px;object-fit:contain;mix-blend-mode:multiply}
+.categories button{display:grid;align-items:center;grid-template-columns:48px minmax(0,1fr);gap:.2rem;text-align:left;width:100%;min-height:44px;padding:.3rem .2rem;border:1px solid transparent;border-radius:5px;background:transparent;color:#274869;font-size:1.05rem;overflow-wrap:normal}
+.categories img{width:100%;height:66px;object-fit:contain;mix-blend-mode:multiply}
 .categories [data-section="thanks"]{display:block;text-align:center}
 .categories button:focus-visible{outline-offset:-2px}
 .stage{background:#f7fbff;scrollbar-gutter:stable}
-.figure-echo{position:fixed;z-index:3;pointer-events:none;width:clamp(55px,9vw,150px);height:clamp(110px,26vh,290px);object-fit:contain;mix-blend-mode:multiply}
-.figure-echo[data-position="description"]{left:0;top:13%}
-.figure-echo[data-position="installation"]{right:0;top:21%}
-.figure-echo[data-position="program"]{left:0;bottom:9%}
-.figure-echo[data-position="series"]{right:0;bottom:7%}
 @media(max-width:730px){
  .workspace{width:86vw;height:79dvh}
- .workspace-body{grid-template-columns:4.9rem minmax(0,1fr);padding:.3rem;gap:.3rem}
+ .workspace-body{grid-template-columns:6.2rem minmax(0,1fr);padding:.3rem;gap:.3rem}
  .categories{padding:.12rem}
- .categories button{grid-template-columns:1fr;justify-items:center;text-align:center;font-size:.72rem;padding:.2rem .05rem}
- .categories img{height:33px}
- .figure-echo{width:7vw;height:18dvh}
+ .categories button{grid-template-columns:1fr;justify-items:center;text-align:center;font-size:.88rem;padding:.2rem .05rem}
+ .categories img{height:47px}
  .gallery,.carpet{grid-template-columns:1fr}
 }
+
+.category-backdrop{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;z-index:0}
+.image-viewer{padding:.65rem;background:#f9fcff;color:inherit;border:1px solid #a1b5cc;border-radius:8px;max-width:95vw;max-height:94dvh}
+.image-viewer::backdrop{background:#132138ca}
+.image-viewer img{display:block;max-width:calc(94vw - 1.3rem);max-height:calc(92dvh - 3.6rem);object-fit:contain;margin:auto}
+.gallery-tools{display:flex;justify-content:space-between;align-items:center;gap:.5rem;margin-top:.5rem}
+.gallery-tools button{border:1px solid #a1b5cc;border-radius:4px;background:#edf5ff;color:inherit;padding:.35rem .5rem}
 </style>
 <main class="sky">
 <img class="clouds" src="Infinite-Jest/assets/infinitejest_intro.head.174438634745.png" alt="">
@@ -72,7 +73,7 @@ iframe{display:block;width:100%;border:0;background:#10141b;aspect-ratio:16/9}
 <img class="cloudbank" src="Infinite-Jest/assets/infinitejest_intro.head.174438634746.png" alt="">
 </div>
 <section class="workspace" aria-labelledby="name" hidden><header class="trailer-head"><h1 id="name">Infinite Jest</h1><button class="close" type="button" aria-label="Close project window">×</button></header>
-<div class="workspace-body"><nav class="categories" aria-label="Project sections"><button data-section="description"><img src="Infinite-Jest/assets/infinitejest-main.head.174938218751.png" alt=""><span>Project description</span></button><button data-section="installation"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231839.png" alt=""><span>Installation views</span></button><button data-section="program"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231840.png" alt=""><span>Public program</span></button><button data-section="series"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231841.png" alt=""><span>The series</span></button><button data-section="thanks">Acknowledgements</button></nav>
+<div class="workspace-body"><nav class="categories" aria-label="Project sections"><button data-section="description"><img src="Infinite-Jest/assets/infinitejest-main.head.174938218751.png" alt=""><span>Project description</span></button><button data-section="installation"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231839.png" alt=""><span>Installation views</span></button><button data-section="program"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231840.png" alt=""><span>Public program</span></button><button data-section="series"><img src="Infinite-Jest/assets/infinitejest-main.head.174938231841.png" alt=""><span>The series</span></button><button data-section="thanks">Credits</button></nav>
 <div class="stage">
 <section class="panel trailer" id="trailer" aria-label="Trailer" hidden>
 
@@ -95,13 +96,22 @@ iframe{display:block;width:100%;border:0;background:#10141b;aspect-ratio:16/9}
 <section class="panel media-panel" id="installation" hidden><h2>Installation views</h2><div class="gallery"><a href="Infinite-Jest/assets/infinitejest-main.head.174437794774.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437794774.jpg" alt="Nine-screen installation" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437795077.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437795077.jpg" alt="Exhibition display" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.17443779544.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.17443779544.jpg" alt="Visitor at the exhibition" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437798736.jpg"><img src="Infinite-Jest/assets/infinitejest-main.head.174437798736.jpg" alt="Wide installation view" loading="lazy"></a></div></section>
 <section class="panel media-panel" id="program" hidden><h2>Public program</h2><div class="gallery"><a href="Infinite-Jest/assets/infinitejest-main.head.174437908642.png"><img src="Infinite-Jest/assets/infinitejest-main.head.174437908642.png" alt="Public program poster" loading="lazy"></a><a href="Infinite-Jest/assets/infinitejest-main.head.174437908340.png"><img src="Infinite-Jest/assets/infinitejest-main.head.174437908340.png" alt="Public program documentation" loading="lazy"></a></div><div data-player></div></section>
 <section class="panel" id="series" hidden><h2>The series</h2><div class="carpet"></div></section>
-<section class="panel text-panel" id="thanks" hidden><h2>Acknowledgements</h2>
+<section class="panel text-panel" id="thanks" hidden><h2>Credits</h2>
 <p>Soundtracks by Polina Orlikova (aka Popo).</p>
 <p>A big thank you to The Vaults Centre for Artistic Production (GES-2).</p>
 </section>
 </div></div></section>
-<img class="figure-echo" alt="" hidden>
+<img class="category-backdrop" alt="" hidden>
 </main>
+<dialog class="image-viewer" aria-label="Image gallery">
+  <img alt="">
+  <div class="gallery-tools">
+    <button type="button" data-step="-1" aria-label="Previous image">‹</button>
+    <span aria-live="polite"></span>
+    <button type="button" data-step="1" aria-label="Next image">›</button>
+    <form method="dialog"><button aria-label="Close gallery">×</button></form>
+  </div>
+</dialog>
 
 <script>
 const workspace = document.querySelector('.workspace');
@@ -113,7 +123,9 @@ const trailer = document.querySelector('.trailer-body');
 const program = document.querySelector('#program [data-player]');
 const carpet = document.querySelector('.carpet');
 const stage = document.querySelector('.stage');
-const outsideFigure = document.querySelector('.figure-echo');
+const backdrop = document.querySelector('.category-backdrop');
+const backgrounds = ['all.png', 'all2.png', 'all3.png'];
+let backgroundIndex = 0;
 function player(id, title, start = 0) {
   const frame = document.createElement('iframe');
   frame.title = title;
@@ -124,7 +136,7 @@ function player(id, title, start = 0) {
 }
 function show(id) {
   stage.scrollTop = 0;
-  outsideFigure.hidden = true;
+  backdrop.hidden = true;
   panels.forEach(panel => { panel.hidden = panel.id !== id; });
   buttons.forEach(button => {
     if (button.dataset.section === id) button.setAttribute('aria-current','true');
@@ -150,26 +162,55 @@ function closeWorkspace() {
 }
 document.querySelector('.close').addEventListener('click', closeWorkspace);
 document.addEventListener('keydown', event => {
-  if(event.key === 'Escape' && !workspace.hidden) closeWorkspace();
+  if(event.key === 'Escape' && !workspace.hidden && !imageViewer.open) closeWorkspace();
 });
 buttons.forEach(button => button.addEventListener('click', () => {
   const id = button.dataset.section;
   show(id);
-  const figure = button.querySelector('img');
-  if (figure) {
-    outsideFigure.src = figure.src;
-    outsideFigure.dataset.position = id;
-    outsideFigure.hidden = false;
-  }
+  backdrop.src = `Infinite-Jest/${backgrounds[backgroundIndex]}`;
+  backgroundIndex = (backgroundIndex + 1) % backgrounds.length;
+  backdrop.hidden = false;
   if(id === 'program' && !program.firstChild) program.append(player('I_RWcYMjph0','Museum talk on The Sims'));
   if(id === 'series' && !carpet.children.length) {
     [838,997,1254,2098,0,2508,3325,3518,5808].forEach(start => {
       const tile = document.createElement('figure');
-      const label = document.createElement('figcaption');
-      label.textContent = start ? `${Math.floor(start/60)}:${String(start%60).padStart(2,'0')}` : 'Full machinima';
-      tile.append(player('JNQe83mNinQ', `Infinite Jest · ${label.textContent}`,start), label);
+      const time = `${Math.floor(start/60)}:${String(start%60).padStart(2,'0')}`;
+      tile.append(player('JNQe83mNinQ', `Infinite Jest · ${time}`, start));
       carpet.append(tile);
     });
   }
 }));
+
+const imageViewer = document.querySelector('.image-viewer');
+const galleryImage = imageViewer.querySelector('img');
+const galleryCount = imageViewer.querySelector('span');
+let galleryItems = [];
+let galleryIndex = 0;
+function renderGalleryImage() {
+  const link = galleryItems[galleryIndex];
+  galleryImage.src = link.href;
+  galleryImage.alt = link.querySelector('img').alt;
+  galleryCount.textContent = `${galleryIndex + 1} / ${galleryItems.length}`;
+}
+document.querySelectorAll('.gallery').forEach(gallery => {
+  const links = [...gallery.querySelectorAll('a')];
+  links.forEach((link, index) => link.addEventListener('click', event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    galleryItems = links;
+    galleryIndex = index;
+    renderGalleryImage();
+    imageViewer.showModal();
+  }));
+});
+function stepGallery(step) {
+  galleryIndex = (galleryIndex + step + galleryItems.length) % galleryItems.length;
+  renderGalleryImage();
+}
+imageViewer.querySelectorAll('[data-step]').forEach(button => button.addEventListener('click', () => stepGallery(Number(button.dataset.step))));
+imageViewer.addEventListener('keydown', event => {
+  if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+  event.preventDefault();
+  stepGallery(event.key === 'ArrowLeft' ? -1 : 1);
+});
 </script></html>
