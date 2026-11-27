@@ -19,8 +19,7 @@ button:focus-visible,a:focus-visible{outline:3px solid #643c8d;outline-offset:3p
 .chain{width:42%;left:29%;top:22%;pointer-events:none}
 .cloudbank{width:113%;height:29%;left:-6.5%;bottom:-6%;object-fit:fill;pointer-events:none}
 .portal{width:10%;min-width:46px;height:29%;top:25%;left:47%;padding:0;border:0;background:transparent;z-index:1}
-.blob{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 11px #b3e88b);transition:transform .2s}
-.portal:hover .blob{transform:translateY(-5px)}
+.blob{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 11px #b3e88b)}
 .categories button:hover,.categories button[aria-current]{background:#eaf4fc;border-color:#b8d2e6}
 .stage{min-width:0;position:relative}
 .panel{scroll-margin-top:1rem}
@@ -39,7 +38,6 @@ iframe{display:block;width:100%;border:0;background:#10141b;aspect-ratio:16/9}
 .carpet figure{margin:0;min-width:0}.carpet iframe{min-height:200px}
 
 @media(max-width:475px){.carpet{grid-template-columns:1fr}}
-@media(prefers-reduced-motion:reduce){.blob{transition:none}}
 
 .workspace{position:fixed;z-index:2;inset:50% auto auto 50%;transform:translate(-50%,-50%);width:min(1040px,80vw);height:min(730px,82dvh);display:flex;flex-direction:column;background:#f9fcff;border:1px solid #a1b5cc;border-radius:9px;overflow:hidden;box-shadow:0 15px 48px #293c5866}
 .workspace-body{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:.55rem;padding:.6rem;background:#dfeaf6;flex:1;min-height:0}
